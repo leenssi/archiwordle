@@ -2,6 +2,8 @@ const ARCHITECTURE_WORDS = [
   "vault", "domey", "space", "light", "brick", "steel", "curve", "angle", "slabs", "truss, "joist", "stair", "ledge", "brace", "beams", "mould", "glass", "stone", "plank", "paint", "plane", "style", "draft", "scale", "sketch", "level", "model", "joint", "riser", "floor", "hinge", "cable", "lines", "forms", "grids", "edges", "green", "zoned", "urban", "paths", "plaza", "parks", "rafts", "scale", "aisle", "plank", "frame", "tower", "gable"
 ];
 
+];
+
 const word = ARCHITECTURE_WORDS[Math.floor(Math.random() * ARCHITECTURE_WORDS.length)].toLowerCase();
 let currentGuess = "";
 let attempts = 0;
